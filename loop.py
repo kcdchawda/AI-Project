@@ -22,7 +22,7 @@ for i in range (10,21):
 
 print(sum)
 
-
+#While Loop
 
 i=1
 while (i<=5):
@@ -106,17 +106,70 @@ for  i in  range (10):
  
 
      
-'''
+
 i=0
 
 sum=1
 
-while (i>=1):
+while (i<=1):
 
     sum=sum+i
 
 
-    i-=1
+    i+=1
 
 
 print(sum)
+
+
+
+
+#for i in rang
+
+#10 - 20
+
+for i in range (10,21):
+    print(i)
+
+#sum
+sum=0
+
+for i in range (10,21):
+
+    sum=sum+i
+print ("sum of range items", sum)
+
+#Multiply
+Multiply=1
+
+for i in range (10,21):
+    Multiply=Multiply*i
+
+print ("Multiply of range items", Multiply)
+
+
+
+#While Loop
+
+i=10
+while (i<=20):
+    print (i)
+    i=i+1
+'''
+#Sum
+sum=0
+i=10
+while (i<=20):
+    sum=sum+i
+   
+    i=i+1
+print ("sum of list item", sum)
+
+#Mutlipy
+Mutlipy=1
+i=10
+while (i<=20):
+    Mutlipy=Mutlipy*i
+   
+    i=i+1
+print ("Mutlipy of list item", Mutlipy)

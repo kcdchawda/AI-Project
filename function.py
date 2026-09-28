@@ -1,4 +1,4 @@
-
+#Function 
 '''
 
 def addNum (a,b):
@@ -31,9 +31,6 @@ def avg (a,b,c):
     d=(a+b+c)/3
     
     return d
-
-
-
 res = avg (10,20,30)
 print ("res=", res)
 
@@ -82,7 +79,7 @@ print ("res=", res)
 
 
 
-'''
+
 
 def isEven (num):
     rem= num % 2
@@ -98,10 +95,44 @@ a=int(input("enter the number:"))
 isEven (a)
 
 
+def addnum (a,b):
+    c=a+b
+    print=("sum is ",c)
+addnum (10,20)
+
+def avg (a,b,c):
+    d=(a+b+c)/3
+    return d
+
+res= avg (10,20,30)
+print ("res="  , res)
+
+
+def isEven (num):
+    rem=  num    %    2 
+
+    if (rem==0):   
+
+        print ("Even")
+
+    else:
+
+        print ("odd")
+
+    a=int(input("enter a number:"))
+    isEven(a)
+
+
+
+'''
 
 
 
 
 
-
-
+def avg (a,b,c):
+    d=(a+b+c)/3
+    
+    return d
+res = avg (10,20,30)
+print ("res=", res)

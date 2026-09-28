@@ -1,20 +1,27 @@
+#Distorny
+
 myDetail={
+
+
     "name":"Ketan",
     "city":"Amravati",
     "age":35,
     "hobby":["Football","Cricket","Cinema"],
+     "address":{
+     "city":"Amravati",
+     "state":"Maharaster",
+    "pin":444061}}
 
-  
-
-}
 
 #print(myDetail)
 #print(myDetail["name"])
 #print(myDetail["age"])
 
 
-#myDetail ["work"]='student'
-#print(myDetail)
+for i,j in myDetail ["address"].items():
+  print(i,':',j)
+  
+
 
 #myDetail ["work"]='video content cerator artist'
 #print(myDetail)
@@ -34,11 +41,13 @@ myDetail={
 #for i,j in myDetail.items():
  #   print (i,':', j)
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+thisdict =  {
+    "brand": "Ford",
+    "model": "mustang",
+    "year" : 1964
+    }
+
+
 
 #dictCopy=thisdict.copy()
 
@@ -49,11 +58,3 @@ thisdict = {
 #print(thisdict)
 #print(thisdict["brand"])
 
-thisdict ["work"]= 'mechical'
-print(thisdict)
-
-thisdict ["work"]= 'Ai Engineering prompt'
-print(thisdict)
-
-thisdict.pop ('year')
-print(thisdict)
